@@ -30,6 +30,7 @@ export class Home extends React.Component{
             id: (Math.random()*10)
           }])
       });
+      this.setState({taskInput: ''});
       return false;
     }
     
